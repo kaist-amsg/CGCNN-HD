@@ -58,8 +58,7 @@ class CrystalGraphConvNet(nn.Module):
 		if hasattr(self, 'fcs') and hasattr(self, 'softpluses'):
 			for fc,softplus in zip(self.fcs,self.softpluses):
 				crys_fea = softplus(fc(crys_fea))
-				crys_fea = F.dropout(crys_fea,0.2,training=True)
-#				crys_fea = F.dropout(crys_fea,0.2,training=self.training)
+				crys_fea = F.dropout(crys_fea,0.2,training=self.training)
 
 		out = self.fc_out(crys_fea)
 		return out,fin_crys_fea
