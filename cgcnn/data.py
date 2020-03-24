@@ -145,8 +145,8 @@ class CIFData(Dataset):
     @functools.lru_cache(maxsize=None)  # Cache loaded structures
     def __getitem__(self, idx):
         cif_id, target = self.id_prop_data[idx]
-        atoms = read(os.path.join(self.root_dir,cif_id+'.vasp'))
-        #atoms = read(os.path.join(self.root_dir,cif_id+'.cif'))
+        #atoms = read(os.path.join(self.root_dir,cif_id+'.vasp'))
+        atoms = read(os.path.join(self.root_dir,cif_id+'.cif'))
         crystal = AseAtomsAdaptor.get_structure(atoms)
         atom_fea = np.vstack([self.ari.get_atom_fea(crystal[i].specie.number)
                               for i in range(len(crystal))])
