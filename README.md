@@ -16,7 +16,7 @@ Dependencies
 How to use
 ------------
 **1. Database setting**
-> Reference formation energy value of the previous our ChemComm paper (Chem. Commun.,2019,55,13418-13421) can be found in Mg-Mn-O_database/MgMnO_form_e.data.k500.json                 
+**Reference formation energy value of the previous our ChemComm paper (Chem. Commun.,2019,55,13418-13421) can be found in Mg-Mn-O_database/MgMnO_form_e.data.k500.json**                 
 > If you want to use org_cif database      
 - cd Mg-Mn-O_database     
 - tar xvf org_cifs.tar         
