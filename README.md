@@ -16,10 +16,10 @@ Dependencies
 How to use
 ------------
 1. Database setting
-> cd Mg-Mn-O_database
-> tar xvf lattice_scaled.tar
-> tar xvf org_cifs.tar
-> cp 
+- cd Mg-Mn-O_database   
+- tar xvf lattice_scaled.tar   
+- tar xvf org_cifs.tar   
+- cp   
 tar xvf 
 -  Numpy
 -  Pytorch == 0.4.1.post2 (CUDA 8.0)
