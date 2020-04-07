@@ -12,3 +12,12 @@ Dependencies
 -  Pytorch == 0.4.1.post2 (CUDA 8.0)
 -  Pymatgen
 -  Sklearn
+
+How to use
+------------
+cd Mg-Mn-O_database
+tar xvf 
+-  Numpy
+-  Pytorch == 0.4.1.post2 (CUDA 8.0)
+-  Pymatgen
+-  Sklearn
