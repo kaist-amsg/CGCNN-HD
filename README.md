@@ -26,11 +26,19 @@ How to use
 
 **2. Dropout Sampling**
 > If you want to use org_cif database      
+- Currently, crystal graph is constructed only if maximum number of neighboring atom = 8 and cutoff radius = 4A        
 - Change root_dir = '/your/data/path/' in dropout_sampling.py to Mg-Mn-O_database/org_cifs/    
 - python dropout_sampling.py cgcnn_hd_rcut4_nn8.best.pth.tar       
 - You may get dropout_test.csv file (name,predicted mean,predicted standard deviation)         
 
-> If you want to use scaled database      
+> If you want to use scaled database                    
+- Currently, crystal graph is constructed only if maximum number of neighboring atom = 8 and cutoff radius = 4A
 - Change root_dir = '/your/data/path/' in dropout_sampling.py to Mg-Mn-O_database/lattice_scaled/    
 - python dropout_sampling.py cgcnn_hd_rcut4_nn8.best.pth.tar       
 - You may get dropout_test.csv file (name,predicted mean,predicted standard deviation)         
+
+**3. Training with your own database**
+- Currently, crystal graph is constructed only if maximum number of neighboring atom = 8 and cutoff radius = 4A              
+- Change root_dir = '/your/data/path/' in model_train.py to path for your own dataset        
+- Set MYPYTHON="your/python/path" and MODELPREF="your/model/pref" in training.sh with your own setting         
+- sh training.sh         
