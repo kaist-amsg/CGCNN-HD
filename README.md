@@ -19,8 +19,10 @@ How to use
 - cd Mg-Mn-O_database   
 - tar xvf lattice_scaled.tar   
 - tar xvf org_cifs.tar   
-- cp 
-tar xvf 
+- cp id_prop.r4_nn8.orgcif.csv org_cifs/id_prop.csv    
+- cp id_prop.r4_nn8.scaled.csv lattice_scaled/id_prop.csv    
+
+2.  
 -  Numpy
 -  Pytorch == 0.4.1.post2 (CUDA 8.0)
 -  Pymatgen
