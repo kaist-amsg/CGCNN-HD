@@ -19,7 +19,7 @@ How to use
 - cd Mg-Mn-O_database   
 - tar xvf lattice_scaled.tar   
 - tar xvf org_cifs.tar   
-- cp   
+- cp 
 tar xvf 
 -  Numpy
 -  Pytorch == 0.4.1.post2 (CUDA 8.0)
