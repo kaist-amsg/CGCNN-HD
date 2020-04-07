@@ -24,6 +24,7 @@ How to use
 - cp atom_init.json org_cifs/    
 
 > If you want to use scaled database      
+- cd Mg-Mn-O_database     
 - tar xvf lattice_scaled.tar        
 - cp id_prop.r4_nn8.scaled.csv lattice_scaled/id_prop.csv    
 - cp atom_init.json lattice_scaled/     
