@@ -82,7 +82,6 @@ class CrystalGraphConvNet(nn.Module):
 					crys_fea = F.dropout(crys_fea,0.2,training=True)
 
 			out = self.fc_out(crys_fea)
-			print(out.view(-1))
 			dropout[:,i_] = out.view(-1)
 		return dropout
 
