@@ -1,9 +1,9 @@
 # CGCNN-HD (https://dx.doi.org/10.1021/acs.jcim.0c00003)
-The CGCNN-HD is a python code for dropout-based uncertainty quantification for stability prediction with CGCNN (by T. Xie et al.) developed by Jung group at KAIST.
+The CGCNN-HD is a python code for dropout-based uncertainty quantification for stability prediction with CGCNN (by T. Xie et al.) developed by prof. Yousung Jung group at KAIST (contact: ysjn@kaist.ac.kr).
 
 Developers
 ----------
-Juhwan Noh (jhwan@kaist.ac.kr)
+Juhwan Noh                    
 
 Dependencies
 ------------
