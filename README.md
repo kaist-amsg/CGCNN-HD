@@ -7,11 +7,12 @@ Juhwan Noh
 
 Dependencies
 ------------
--  Python3
+-  Python3.6
 -  Numpy
 -  Pytorch == 0.4.1.post2 (CUDA 8.0)
 -  Pymatgen
 -  Sklearn
+-  ASE
 
 How to use
 ------------
